@@ -62,7 +62,7 @@ const AuthForm = ({ type }) => {
                             <input type="text" placeholder="Username" value={username} onChange={(event) => setUsername(event.target.value)} required />
                         </div>
                     )}
-                    <button type="submit">{type === 'login' ? 'Sign In' : 'Sign Up'}</button>
+                    <button className='btn-authForm' type="submit">{type === 'login' ? 'Sign In' : 'Sign Up'}</button>
                     {type === 'login' && (
                     <div className='register'>
                         <p>Don’t have an account? <a href="/register">Create account</a></p>

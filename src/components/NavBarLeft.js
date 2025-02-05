@@ -9,7 +9,6 @@ const NavBarLeft = () => {
   const [showAllEvents, setShowAllEvents] = useState(false);
   const [communities, setCommunities] = useState([]);
   const [events, setEvents] = useState([]);
-
   useEffect(() => {
     fetch("/data/community.json")
       .then((res) => res.json())

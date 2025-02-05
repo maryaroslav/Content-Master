@@ -105,7 +105,7 @@ input::placeholder {
     font-size: 14px;
 }
 
-button {
+.btn-authForm {
     font-family: 'Poppins', sans-serif;
     padding: 15px;
     background-color: #10100E;
@@ -118,7 +118,7 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+.btn-authForm:hover {
     background-color: #303030;
 }
 
