@@ -1,0 +1,52 @@
+[
+    {
+        "title": "The Way of Product Design",
+        "author": "Caden Damiano",
+        "img": "/img/21.jpg"
+    },
+    {
+        "title": "On Purpose",
+        "author": "Jay Shetty",
+        "img": "/img/22.jpg"
+    },
+    {
+        "title": "The Game",
+        "author": "Alex Hormozi",
+        "img": "/img/23.jpg"
+    },
+    {
+        "title": "UI Breakfast",
+        "author": "Jane Portman",
+        "img": "/img/24.jpg"
+    },
+    {
+        "title": "Design Team Podcast",
+        "author": "The Smyth Group Design Team",
+        "img": "/img/25.jpg"
+    },
+    {
+        "title": "Growth & Design",
+        "author": "Alex Hormozi",
+        "img": "/img/26.jpg"
+    },
+    {
+        "title": "Creative Confidence",
+        "author": "IDEO U",
+        "img": "/img/27.jpg"
+    },
+    {
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "img": "/img/28.jpg"
+    },
+    {
+        "title": "The Futur Podcast",
+        "author": "Chris Do",
+        "img": "/img/29.jpg"
+    },
+    {
+        "title": "Design Better",
+        "author": "InVision",
+        "img": "/img/30.jpg"
+    }
+]
