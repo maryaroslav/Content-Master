@@ -22,7 +22,7 @@ const AuthForm = ({ type }) => {
 
         if (type === 'register') {
             const userExists = users.find((user) => user.email === email);
-            if(userExists) {
+            if (userExists) {
                 alert('User alredy exists!');
                 return;
             }
@@ -50,11 +50,11 @@ const AuthForm = ({ type }) => {
                     <h1>{type === 'login' ? 'Sign In to your account' : 'Create your account'}</h1>
                     <div className='input-email input-box'>
                         <p>Email</p>
-                        <input type="email" placeholder="Email" value={email} onChange={(event) => setEmail(event.target.value)} required/>
+                        <input type="email" placeholder="Email" value={email} onChange={(event) => setEmail(event.target.value)} required />
                     </div>
                     <div className='input-password input-box'>
                         <p>Password</p>
-                        <input type="password" placeholder="Password" value={password} onChange={(event) => setPassword(event.target.value)} required/>
+                        <input type="password" placeholder="Password" value={password} onChange={(event) => setPassword(event.target.value)} required />
                     </div>
                     {type === 'register' && (
                         <div className='input-username input-box'>
@@ -64,14 +64,14 @@ const AuthForm = ({ type }) => {
                     )}
                     <button className='btn-authForm' type="submit">{type === 'login' ? 'Sign In' : 'Sign Up'}</button>
                     {type === 'login' && (
-                    <div className='register'>
-                        <p>Don’t have an account? <a href="/register">Create account</a></p>
-                    </div>
+                        <div className='register'>
+                            <p>Don’t have an account? <a href="/register">Create account</a></p>
+                        </div>
                     )}
                     {type === 'register' && (
-                    <div className='register'>
-                        <p>Already have an account? <a href="/login">Sign in</a></p>
-                    </div>
+                        <div className='register'>
+                            <p>Already have an account? <a href="/login">Sign in</a></p>
+                        </div>
                     )}
                 </form>
             </div>

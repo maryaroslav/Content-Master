@@ -27,7 +27,7 @@
     padding: 14px;
     border-radius: 10px;
     border: 1px solid #dfdfdf;
-    flex: 1; /* Растягиваем input */
+    flex: 1;
 }
 
 .addpost-input input {

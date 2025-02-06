@@ -32,7 +32,7 @@ const HeaderMain = () => {
             <div className="search-container">
                 <div className="search">
                     <img src={search} alt="" />
-                    <input type="text" placeholder="Search"/>
+                    <input type="text" placeholder="Search" />
                 </div>
             </div>
             <nav className='nav'>

@@ -4,37 +4,37 @@ import '../style/feedCommunity.css'
 import arrowDown from '../img/arrow-down.svg';
 
 const FeedCommunity = () => {
-  const dispatch = useDispatch();
-  const [communities, setCommunities] = useState([]);
+    const dispatch = useDispatch();
+    const [communities, setCommunities] = useState([]);
 
-  useEffect(() => {
-    fetch('/data/community.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setCommunities(data);
-      })
-      .catch((err) => console.error('Error loading communities:', err));
-  }, [dispatch]);
+    useEffect(() => {
+        fetch('/data/community.json')
+            .then((res) => res.json())
+            .then((data) => {
+                setCommunities(data);
+            })
+            .catch((err) => console.error('Error loading communities:', err));
+    }, [dispatch]);
 
-  return (
-    <div className='feedcomunnity-grey'>
-      <div className="feedcommunity-container">
-        {communities.map((community, index) => (
-          <div key={index} className="feedcommunity-item">
-            <img src={community.img} alt={community.title} />
-            <div className="feedcommunity-item-title">
-              <p className="feedcommunity-type">{community.type}</p>
-              <p className="feedcommunity-name">{community.title}</p>
-              <p className="feedcommunity-members">{community.members} Members</p>
+    return (
+        <div className='feedcomunnity-grey'>
+            <div className="feedcommunity-container">
+                {communities.map((community, index) => (
+                    <div key={index} className="feedcommunity-item">
+                        <img src={community.img} alt={community.title} />
+                        <div className="feedcommunity-item-title">
+                            <p className="feedcommunity-type">{community.type}</p>
+                            <p className="feedcommunity-name">{community.title}</p>
+                            <p className="feedcommunity-members">{community.members} Members</p>
+                        </div>
+                        <div className='feedcommunity-arrow'>
+                            <img src={arrowDown} alt="" />
+                        </div>
+                    </div>
+                ))}
             </div>
-            <div className='feedcommunity-arrow'>
-                <img src={arrowDown} alt="" />
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default FeedCommunity;

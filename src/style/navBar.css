@@ -9,14 +9,14 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Делаем меню горизонтальным */
-    justify-content: flex-start; /* Выравниваем влево */
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
     height: 50px;
 }
 
 .navbar li {
-    margin: 0 20px; /* Отступы между пунктами */
+    margin: 0 20px;
 }
 
 .navbar a {
@@ -35,6 +35,6 @@
 .navbar a.active {
     font-weight: bold;
     color: #479BD8;
-    border-bottom: 3px solid #479BD8; /* Подчеркивание активной вкладки */
+    border-bottom: 3px solid #479BD8;
     z-index: 1000;
 }

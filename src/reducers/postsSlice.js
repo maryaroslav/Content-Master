@@ -18,7 +18,7 @@ const postsSlice = createSlice({
             const fetchedPosts = action.payload.map((post, index) => {
                 const overallIndex = state.list.length + index;
                 const color = colors[overallIndex % colors.length];
-                return { ...post, ...color, removable: false }; // JSON-посты не удаляем
+                return { ...post, ...color, removable: false };
             });
             state.list = [...state.list, ...fetchedPosts];
         },
@@ -26,7 +26,7 @@ const postsSlice = createSlice({
             const newPost = action.payload;
             const index = state.list.length;
             const color = colors[index % colors.length];
-            state.list.unshift({ ...newPost, ...color, removable: true }); // Новые посты можно удалить
+            state.list.unshift({ ...newPost, ...color, removable: true });
         },
         deletePost: (state, action) => {
             state.list = state.list.filter((post) => post.id !== action.payload);

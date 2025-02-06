@@ -26,9 +26,9 @@ const Welcome = () => {
     const currentUser = getCurrentUser();
 
     useEffect(() => {
-        document.documentElement.style.overflow = "hidden";  // Убираем скролл при входе
+        document.documentElement.style.overflow = "hidden";
         return () => {
-            document.documentElement.style.overflow = ""; // Восстанавливаем при выходе
+            document.documentElement.style.overflow = "";
         };
     }, []);
 

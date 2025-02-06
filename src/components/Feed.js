@@ -6,13 +6,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { mergePosts, deletePost } from '../reducers/postsSlice';
 import '../style/feed.css';
 
-const colors = [
-  { bg: '#E5F6FF', icon: '#E5F6FF' },
-  { bg: '#F1E9FF', icon: '#B792E5' },
-  { bg: '#EEFFE3', icon: '#82D62E' },
-  { bg: '#FFFCE3', icon: '#FFE000' },
-  { bg: '#E9FFF0', icon: '#72B7A7' },
-];
 
 const Feed = () => {
   const dispatch = useDispatch();

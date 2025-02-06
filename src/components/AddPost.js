@@ -41,7 +41,7 @@ const AddPost = () => {
             days_ago: 0,
             svg: defaultImage,
             img: image,
-            removable: true, // Новые посты можно удалять
+            removable: true,
           };
 
         dispatch(addPost(newPost));
