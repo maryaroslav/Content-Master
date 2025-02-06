@@ -7,6 +7,7 @@ import Main from './pages/Main'
 import CommunityPage from './pages/CommunityPage';
 import EventsPage from './pages/EventsPage';
 import SettingPage from './pages/SettingPage';
+import AdminPanel from './pages/AdminPanel'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/community" element={<CommunityPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/settings" element={<SettingPage />} />
+          <Route path="/admin" element={<AdminPanel />} />
         </Routes>
       </Router>
     </div>

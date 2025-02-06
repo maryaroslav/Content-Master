@@ -31,7 +31,7 @@ const AuthForm = ({ type }) => {
             users.push(newUser);
             localStorage.setItem('users', JSON.stringify(users));
             dispatch(login(newUser));
-            navigate('/forum')
+            navigate('/explore')
         } else {
             const user = users.find((user) => user.email === email && user.password === password);
             if (user) {

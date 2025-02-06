@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import CommunityCard from './CommunityCard';
 
 import '../style/navBarRight.css'
 
@@ -29,12 +30,12 @@ const NavBarRight = () => {
         }));
         setItems(updatedData);
       })
-      .catch((err) => console.error(err))
+      .catch((err) => console.error(err));
 
     fetch("/data/podcasts.json")
       .then((res) => res.json())
       .then((data) => setPodcasts(data))
-      .catch((err) => console.error(err))
+      .catch((err) => console.error(err));
   }, []);
 
   return (
@@ -42,15 +43,13 @@ const NavBarRight = () => {
       <div>
         <div className='sidebar-name' onClick={() => setShowAllCommunities(!showAllCommunities)}>
           <p className="sidebar-title">Popular Tags</p>
-          <img src={arrowDown} alt="" className={showAllCommunities ? "rotated" : "180deg"} />
+          <img src={arrowDown} alt="toggle" className={showAllCommunities ? "rotated" : "180deg"} />
         </div>
         <div className="community-list">
           {(showAllCommunities ? items : items.slice(0, 4)).map((tag, index) => (
             <div key={index} className="community-item">
-              <div key={index} className='card' style={{ backgroundColor: tag.bg }}>
-                <img src={tag.img} alt="icon" style={{ filter: "none", fill: tag.color }} />
-              </div>
-              <div key={index} className='item-title'>
+              <CommunityCard bg={tag.bg} svg={tag.svg} color={tag.color} />
+              <div className='item-title'>
                 <p className="community-name">{tag.tag}</p>
                 <p className="community-members">{tag.postCount} posted by this tag</p>
               </div>
@@ -61,13 +60,13 @@ const NavBarRight = () => {
       <div className="events-section">
         <div className='sidebar-name' onClick={() => setShowAllEvents(!showAllEvents)}>
           <p className="sidebar-title">Podcasts</p>
-          <img src={arrowDown} alt="" className={showAllEvents ? "rotated" : ""} />
+          <img src={arrowDown} alt="toggle" className={showAllEvents ? "rotated" : ""} />
         </div>
         <div className="event-list">
           {(showAllEvents ? podcasts : podcasts.slice(0, 6)).map((podcast, index) => (
             <div key={index} className="event-item">
-              <img src={podcast.img} alt="" />
-              <div key={index} className='item-title'>
+              <img src={podcast.img} alt={podcast.title} />
+              <div className='item-title'>
                 <p className="event-name">{podcast.title}</p>
                 <p className="event-attendees">{podcast.author}</p>
               </div>

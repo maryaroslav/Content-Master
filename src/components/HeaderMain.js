@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+import { getCurrentUser } from '../utils/getCurrentUser';
 
 import '../style/headerMain.css';
 import logo from '../img/logo.svg';
@@ -11,6 +12,11 @@ import arrowDown from '../img/arrow-down.svg';
 
 const HeaderMain = () => {
     const navigate = useNavigate();
+    const currentUser = getCurrentUser();
+
+    if (!currentUser) {
+        navigate('/register')
+    }
 
     const handleToMain = (event) => {
         event.preventDefault();
@@ -38,7 +44,7 @@ const HeaderMain = () => {
                             <img src={user} alt="" />
                         </div>
                         <div className="user-name">
-                            <p>Yaroslav</p>
+                            <p>{currentUser.name}</p>
                         </div>
                         <div className="user-modal">
                             <img src={arrowDown} alt="" />

@@ -3,64 +3,82 @@
       "title": "Mastering JavaScript in 2024",
       "author": "John Doe",
       "days_ago": 3,
+      "category": "Programming",
       "content": "JavaScript continues to evolve, bringing exciting new features in 2024. Developers now have access to the Temporal API, making date and time manipulation more intuitive. Pipeline operators are improving code readability, and WebAssembly is enabling high-performance applications in the browser. The JavaScript ecosystem remains vast, with frameworks like React, Vue, and the rising popularity of SolidJS. To stay ahead, developers should focus on understanding performance optimizations, improving accessibility, and adopting TypeScript for better maintainability. The future of JavaScript is bright, and continuous learning is the key to success.",
-      "img": "/img/31.jpg"
+      "img": "/img/31.jpg",
+      "svg": "/img/13.svg"
     },
     {
       "title": "Exploring the Hidden Gems of Japan",
       "author": "Emily Carter",
       "days_ago": 7,
+      "category": "Travel",
       "content": "While Tokyo and Kyoto often steal the spotlight, Japan is filled with hidden treasures. Shirakawa-go, with its traditional thatched-roof houses, offers a glimpse into Japan's rural past. Okinawa’s white sandy beaches and crystal-clear waters are perfect for relaxation. If you love hiking, Kamikōchi's scenic trails through the Japanese Alps are a must. Food lovers can enjoy local delicacies like Hida beef in Takayama or the freshest sushi at Kanazawa’s Omicho Market. Whether you seek adventure or tranquility, Japan has something unique for every traveler.",
-      "img": "/img/32.jpg"
+      "img": "/img/32.jpg",
+      "svg": "/img/12.svg"
     },
     {
       "title": "The Art of Perfecting Homemade Pizza",
       "author": "Michael Brown",
       "days_ago": 12,
+      "category": "Food",
       "content": "A perfect homemade pizza starts with a great dough. Using high-quality flour, proper fermentation, and a hot oven can make all the difference. Neapolitan-style pizzas, with their thin, charred crust, are best cooked at high temperatures, ideally in a pizza stone oven. The sauce should be made from San Marzano tomatoes for authenticity, while fresh mozzarella and basil complete the classic Margherita. Experimenting with different toppings, such as prosciutto, arugula, and burrata, can elevate your homemade pizza game. Don’t forget to drizzle some extra virgin olive oil before serving!",
-      "img": "/img/33.jpg"
+      "img": "/img/33.jpg",
+      "svg": "/img/14.svg"
     },
     {
       "title": "How Podcasts Are Changing the Way We Learn",
       "author": "Sophia Williams",
       "days_ago": 5,
+      "category": "Podcasts",
       "content": "Podcasts have revolutionized education, making learning more accessible and engaging. Whether you’re interested in technology, history, or personal development, there's a podcast for you. Platforms like Spotify and Apple Podcasts provide a vast range of options, from short daily updates to deep-dive discussions. Listening to industry experts and thought leaders can help professionals stay informed on trends. Additionally, storytelling podcasts bring history and science to life in a way that books often cannot. As audio content grows, podcasts are becoming an essential part of modern learning.",
-      "img": "/img/34.jpg"
+      "img": "/img/34.jpg",
+      "svg": "/img/15.svg"
     },
     {
       "title": "The Future of UI/UX Design Trends",
       "author": "Daniel Lee",
       "days_ago": 14,
+      "category": "Design",
       "content": "User experience and interface design are evolving rapidly, with new trends emerging each year. In 2024, minimalism continues to dominate, but designers are also experimenting with bold typography and immersive 3D elements. Dark mode and accessibility features are now essential rather than optional. AI-powered design tools are making workflows more efficient, while micro-interactions enhance user engagement. With more users accessing content via mobile devices, responsive and adaptive design remains a top priority. Staying updated with the latest trends helps designers create seamless and enjoyable digital experiences.",
-      "img": "/img/35.jpg"
+      "img": "/img/35.jpg",
+      "svg": "/img/11.svg"
     },
     {
       "title": "10 Must-Try Street Foods Around the World",
       "author": "Olivia Green",
       "days_ago": 9,
+      "category": "Food",
       "content": "Street food is one of the best ways to experience a country’s culture. In Thailand, Pad Thai and Mango Sticky Rice are must-tries. Mexico’s Tacos al Pastor, filled with marinated pork, offer an explosion of flavor. Japan’s Takoyaki, crispy octopus-filled balls, are a popular snack in Osaka. India’s Pani Puri provides a spicy and tangy experience like no other. If you’re in Istanbul, don’t miss out on Simit, a sesame-crusted bread ring. Exploring street food allows travelers to enjoy authentic flavors at an affordable price.",
-      "img": "/img/36.jpg"
+      "img": "/img/36.jpg",
+      "svg": "/img/14.svg"
     },
     {
       "title": "Why Coding Bootcamps Are Worth It in 2024",
       "author": "Matthew Johnson",
       "days_ago": 6,
+      "category": "Programming",
       "content": "Coding bootcamps have gained popularity as an alternative to traditional computer science degrees. In just a few months, students can acquire in-demand programming skills, such as full-stack development, AI, or cybersecurity. Many bootcamps offer job placement assistance, making them a great option for career changers. While intensive, the hands-on learning approach and industry connections make bootcamps a fast track to a tech career. Success depends on dedication, networking, and continued practice. If you’re looking to break into tech, a bootcamp might be your best investment.",
-      "img": "/img/37.jpg"
+      "img": "/img/37.jpg",
+      "svg": "/img/13.svg"
     },
     {
       "title": "How Remote Work is Changing the Travel Industry",
       "author": "Jessica Adams",
       "days_ago": 8,
+      "category": "Travel",
       "content": "The rise of remote work has transformed travel, leading to the rise of digital nomads. More people are choosing to work from scenic locations, blending career and adventure. Destinations like Bali, Lisbon, and Mexico City have become hubs for remote workers due to their affordability and strong internet infrastructure. Co-working spaces, networking events, and long-term stay options are now widely available. This shift has impacted the hospitality industry, with hotels and Airbnbs catering to long-term travelers. The ability to work from anywhere is reshaping global travel habits.",
-      "img": "/img/38.jpg"
+      "img": "/img/38.jpg",
+      "svg": "/img/12.svg"
     },
     {
       "title": "Top Web Development Frameworks to Learn in 2024",
       "author": "Chris Evans",
       "days_ago": 2,
+      "category": "Programming",
       "content": "Web development is constantly evolving, and learning the right frameworks can boost your career. React remains the most popular front-end library, while Vue and Svelte are gaining traction for their simplicity. On the back-end, Node.js continues to be dominant, but Deno is an interesting alternative. Full-stack frameworks like Next.js and Remix are making server-side rendering more accessible. Web performance and security are more critical than ever, making knowledge of optimization techniques a must. Staying updated with the latest technologies ensures your skills remain relevant in the job market.",
-      "img": "/img/39.jpg"
+      "img": "/img/39.jpg",
+      "svg": "/img/13.svg"
     }
   ]
   

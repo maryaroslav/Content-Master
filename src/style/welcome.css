@@ -236,6 +236,7 @@
     border-radius: 30px;
     text-decoration: none;
     transition: background-color 0.4s ease, transform 0.4s ease;
+    cursor: pointer;
 }
 
 .info-button a:hover {
