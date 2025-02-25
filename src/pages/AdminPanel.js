@@ -12,7 +12,7 @@ const AdminPanel = () => {
     }, []);
 
     const handleClick = () => {
-        navigate('/explore')
+        navigate('/explore');
     }
 
     const handleRoleChange = (email, newRole) => {
